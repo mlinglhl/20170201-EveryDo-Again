@@ -15,6 +15,7 @@
 		89A440EC1E423E3D00D66397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A440EA1E423E3D00D66397 /* Main.storyboard */; };
 		89A440EE1E423E3D00D66397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A440ED1E423E3D00D66397 /* Assets.xcassets */; };
 		89A440F11E423E3D00D66397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A440EF1E423E3D00D66397 /* LaunchScreen.storyboard */; };
+		89A4412C1E4250E100D66397 /* AddToDoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A4412B1E4250E100D66397 /* AddToDoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,12 @@
 		89A440ED1E423E3D00D66397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89A440F01E423E3D00D66397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89A440F21E423E3D00D66397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A440FE1E42469000D66397 /* ToDoObject+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ToDoObject+CoreDataClass.h"; sourceTree = "<group>"; };
+		89A440FF1E42469000D66397 /* ToDoObject+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ToDoObject+CoreDataClass.m"; sourceTree = "<group>"; };
+		89A441001E42469000D66397 /* ToDoObject+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ToDoObject+CoreDataProperties.h"; sourceTree = "<group>"; };
+		89A441011E42469000D66397 /* ToDoObject+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ToDoObject+CoreDataProperties.m"; sourceTree = "<group>"; };
+		89A4412A1E4250E100D66397 /* AddToDoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToDoViewController.h; sourceTree = "<group>"; };
+		89A4412B1E4250E100D66397 /* AddToDoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToDoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,10 @@
 		89A440CF1E423E3D00D66397 = {
 			isa = PBXGroup;
 			children = (
+				89A440FE1E42469000D66397 /* ToDoObject+CoreDataClass.h */,
+				89A440FF1E42469000D66397 /* ToDoObject+CoreDataClass.m */,
+				89A441001E42469000D66397 /* ToDoObject+CoreDataProperties.h */,
+				89A441011E42469000D66397 /* ToDoObject+CoreDataProperties.m */,
 				89A440DA1E423E3D00D66397 /* 20170201 EveryDo Again */,
 				89A440D91E423E3D00D66397 /* Products */,
 			);
@@ -69,6 +80,8 @@
 				89A440E51E423E3D00D66397 /* MasterViewController.m */,
 				89A440E71E423E3D00D66397 /* DetailViewController.h */,
 				89A440E81E423E3D00D66397 /* DetailViewController.m */,
+				89A4412A1E4250E100D66397 /* AddToDoViewController.h */,
+				89A4412B1E4250E100D66397 /* AddToDoViewController.m */,
 				89A440EA1E423E3D00D66397 /* Main.storyboard */,
 				89A440ED1E423E3D00D66397 /* Assets.xcassets */,
 				89A440EF1E423E3D00D66397 /* LaunchScreen.storyboard */,
@@ -158,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89A4412C1E4250E100D66397 /* AddToDoViewController.m in Sources */,
 				89A440E91E423E3D00D66397 /* DetailViewController.m in Sources */,
 				89A440E61E423E3D00D66397 /* MasterViewController.m in Sources */,
 				89A440E31E423E3D00D66397 /* _0170201_EveryDo_Again.xcdatamodeld in Sources */,
@@ -319,6 +333,7 @@
 				89A440F71E423E3D00D66397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
